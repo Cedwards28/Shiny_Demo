@@ -1,4 +1,5 @@
 # Load packages -----------------------------------------------------
+if (!require("DT")) install.packages('DT')
 library(shiny)
 library(ggplot2)
 
